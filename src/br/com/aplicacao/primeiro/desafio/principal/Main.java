@@ -45,7 +45,7 @@ public class Main {
             } else if (resp == 4) {
                 System.out.println("Obrigada por usar nossos serviços!");
                 contator = 0;
-            } else if (resp > 4 || resp < 0 ) {
+            } else if (resp > 4 || resp < 1 ) {
                System.out.println("Opção inválida!");
             }
         }
